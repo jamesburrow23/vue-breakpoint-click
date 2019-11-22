@@ -1,0 +1,38 @@
+{
+  "name": "vue-breakpoint-click",
+  "version": "1.0.0",
+  "description": "Responsive click events for VueJS",
+  "main": "./dist/vue-breakpoint-click.common.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-bundle": "vue-cli-service build --target lib --name vue-breakpoint-click ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesburrow23/vue-breakpoint-click.git"
+  },
+  "files": [
+    "dist/*",
+    "src/*",
+    "*.json",
+    "*.js"
+  ],
+  "keywords": [
+    "vuejs",
+    "directive",
+    "responsive-click",
+    "tailwindcss"
+  ],
+  "devDependencies": {
+    "@vue/cli-service": "^3.8.0"
+  },
+  "author": "James Burrow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamesburrow23/vue-breakpoint-click/issues"
+  },
+  "homepage": "https://github.com/jamesburrow23/vue-breakpoint-click#readme",
+  "dependencies": {
+    "vue-template-compiler": "^2.6.10"
+  }
+}
