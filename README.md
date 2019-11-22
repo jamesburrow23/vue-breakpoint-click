@@ -17,7 +17,7 @@ Vue.directive('click', VueBreakpointClick);
 ```
 
 ## Usage
-Default breakpoints
+### Default breakpoints
 ```
 {
     sm: 640,
@@ -27,7 +27,7 @@ Default breakpoints
 }
 ```
 
-###Basic Usage
+### Basic Usage
 ```
 v-click:[breakpoints].sm.md.lg.xl="callback"
 ```
@@ -49,7 +49,7 @@ v-click:[breakpoints].sm.md.lg.xl="callback"
 </script>
 ```
 
-###You can also specify your breakpoints manually
+### You can also specify your breakpoints manually
 
 ```
 <template>
@@ -75,7 +75,7 @@ v-click:[breakpoints].sm.md.lg.xl="callback"
 </script>
 ```
 
-###Different callbacks for different screen sizes
+### Different callbacks for different screen sizes
 ```
 <template>
     <a v-click.lg="clicked" v-click.sm="clickedIfSmall">Click Me!</a>
